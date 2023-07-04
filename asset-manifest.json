@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kutsubako/static/css/main.2087ec33.css",
-    "main.js": "/kutsubako/static/js/main.87cdbcb6.js",
+    "main.js": "/kutsubako/static/js/main.a4edfad4.js",
     "static/media/about.jpg": "/kutsubako/static/media/about.d6f5276276d117e5bbc2.jpg",
     "static/media/logo.png": "/kutsubako/static/media/logo.7691717ce06a55673163.png",
     "index.html": "/kutsubako/index.html",
     "main.2087ec33.css.map": "/kutsubako/static/css/main.2087ec33.css.map",
-    "main.87cdbcb6.js.map": "/kutsubako/static/js/main.87cdbcb6.js.map"
+    "main.a4edfad4.js.map": "/kutsubako/static/js/main.a4edfad4.js.map"
   },
   "entrypoints": [
     "static/css/main.2087ec33.css",
-    "static/js/main.87cdbcb6.js"
+    "static/js/main.a4edfad4.js"
   ]
 }

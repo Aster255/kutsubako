@@ -1,0 +1,288 @@
+:root {
+  --bs-body-bg: #ffb9b9 !important;
+  --bs-primary-rgb: 255, 141, 199 !important;
+}
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #ff8dc7 !important;
+  --bs-btn-border-color: #ff8dc7 !important;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ffacc7 !important;
+  --bs-btn-hover-border-color: #ffacc7 !important;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ffacc7 !important;
+  --bs-btn-active-border-color: #ffacc7 !important;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #ff8dc7 !important;
+  --bs-btn-disabled-border-color: #ff8dc7 !important;
+}
+.bg-body-tertiary {
+  --bs-bg-opacity: 0 !important;
+}
+.pagination {
+  --bs-pagination-border-color: #ffb9b9 !important;
+}
+.nav-link {
+  font-size: 20px !important;
+}
+.page-link {
+  color: black !important;
+}
+.link {
+  color: inherit;
+  text-decoration: inherit;
+}
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: none !important;
+}
+.form-select,
+.form-control {
+  background-color: white !important;
+}
+.form-check-input:checked {
+  background-color: #ff8dc7 !important;
+  border-color: #ff8dc7 !important;
+}
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 141, 199, 0.25) !important;
+}
+.form-check-input:checked[type="radio"] {
+  --bs-form-check-bg-image: url("") !important;
+}
+.shoedesc {
+  text-align: justify;
+}
+
+body {
+  position: relative;
+  width: 100% !important;
+  height: 100%;
+  min-height: 100vh !important;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  font-family: Merriweather !important;
+  /* background-color: #ef939e !important; */
+}
+.zooter {
+  padding-bottom: 230px !important;
+}
+footer {
+  padding-top: 50px;
+  position: absolute;
+  bottom: 0 !important;
+  width: 100%;
+  height: 220px !important;
+  background-color: #ffb9b9;
+  color: black;
+}
+
+.footerlast {
+  height: 20px !important;
+}
+#tabs-tabpane-register > form > button {
+  margin-top: 5px;
+}
+
+#tabs-tabpane-login > form > button {
+  margin-top: 5px;
+}
+
+.filtercard,
+.cardshop {
+  height: 530px !important;
+}
+
+.aboutp {
+  text-align: justify;
+}
+.cardshop {
+  border-style: groove;
+}
+.card-img {
+  margin-top: auto !important;
+  padding: 3px !important;
+}
+.card-body {
+  margin-top: auto !important;
+  flex: none !important;
+}
+.shoeimgcard {
+  width: 214x !important;
+  height: 156px !important;
+  object-fit: cover !important;
+}
+.cartimg {
+  width: 125px !important;
+  height: 100px !important;
+  object-fit: cover !important;
+}
+.cartimgmobile {
+  width: 100px !important;
+  height: 80px !important;
+  object-fit: cover !important;
+}
+
+.tright {
+  margin-left: auto !important;
+}
+.textCenter {
+  text-align: center !important;
+}
+.shopcardtitle {
+  height: 48px;
+}
+/* .cartimg {
+  height: 100px !important;
+  text-align: center !important;
+} */
+.zeroradius {
+  --bs-btn-border-radius: 0px !important;
+  border-color: black !important;
+  border-style: dotted !important;
+}
+
+:root {
+  --bs-body-bg: #ffddd2 !important;
+}
+.active > .page-link,
+.page-link.active {
+  z-index: 3 !important;
+  color: white !important;
+  background-color: #ff8dc7 !important;
+  border-color: #ff8dc7 !important;
+}
+.form-select:focus,
+.form-control:focus {
+  border-color: #ff8dc7 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.3rem rgb(255, 141, 199, 0.25) !important;
+}
+.page-link {
+  color: black;
+}
+
+.hero-video-container {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  height: 500px;
+  background-color: black;
+}
+
+.hero-video {
+  height: 500px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.4;
+}
+.hero-video-container {
+  height: 500px;
+}
+.hero-video-container video {
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  color: white;
+  top: 5em;
+  text-align: center;
+  align-self: center;
+}
+
+.hero-text h1 {
+  font-size: 3.5em;
+  align-self: center;
+}
+.hero-text h2 {
+  margin-top: 40px;
+  font-size: 1.2em;
+  opacity: 0.8;
+}
+
+.shop-now-btn {
+  opacity: 0.9;
+  font-weight: bolder;
+  border: 0px;
+  bottom: 2rem;
+  align-self: center;
+  font-size: 2rem;
+  font-weight: 900;
+  padding: 1.1rem 3.5rem;
+  border-radius: 40px;
+  color: rgb(0, 0, 0);
+  background-color: #ff8dc7;
+}
+
+.shop-now-btn:hover {
+  opacity: 1;
+  cursor: pointer;
+  background-position: left center; /* change the direction of the change here */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background-color: #ff8dc7;
+}
+
+.form-select {
+  background-color: white !important;
+}
+.form-check-input {
+  background-color: white !important;
+}
+
+.nav-link {
+  color: inherit !important;
+}
+.footerp {
+  text-align: justify;
+}
+@media (min-width: 768px) {
+  .hero-text h1 {
+    font-size: 6em;
+    align-self: center;
+  }
+  .hero-text h2 {
+    margin-top: 40px;
+    font-size: 1.5em;
+    opacity: 0.8;
+  }
+}
+@media (max-width: 576px) {
+  .zooter {
+    padding-bottom: 360px !important;
+  }
+  footer {
+    padding-top: 50px;
+    position: absolute;
+    bottom: 0 !important;
+    width: 100%;
+    height: 350px !important;
+    background-color: #ffb9b9;
+    color: black;
+  }
+}
+/* @media screen and (max-width: 992px) {
+  html,
+  body {
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+    height: 100%;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+  }
+} */
+
+/* On screens that are 600px or less, set the background color to olive */
+/* @media screen and (max-width: 600px) {
+  html,
+  body {
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+    height: 100%;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+  }
+} */
